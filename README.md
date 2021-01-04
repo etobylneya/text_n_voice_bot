@@ -4,3 +4,4 @@ Bot uses the following libraries - Google Text To Speech (gTTS) for dictation an
 If you are willing to run this code yourself you will first need to create a new bot and obtain a bot Token, then paste it in the code
 Work principle is simple, if you send a text message, the bot will send you a voice message with a dictation of your text message; if you send a voice/audio message, the bot will send you a text transcription of your message.
 Depending on the length of your voice message it may take a while before the bot recognizes the speech and sends you the transcription.
+The bot is hosted using Heroku. Procfile, runtime.txt and requirements.txt are needed to host the bot on Heroku.
