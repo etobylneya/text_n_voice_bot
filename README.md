@@ -5,3 +5,5 @@ If you are willing to run this code yourself you will first need to create a new
 Work principle is simple, if you send a text message, the bot will send you a voice message with a dictation of your text message; if you send a voice/audio message, the bot will send you a text transcription of your message.
 Depending on the length of your voice message it may take a while before the bot recognizes the speech and sends you the transcription.
 The bot is hosted using Heroku. Procfile, runtime.txt and requirements.txt are needed to host the bot on Heroku.
+****
+In order to run the code you will also need to have ffmpeg installed and added to your path as ffmpeg. This is needed for .ogg to .wav conversion. ffmpeg can be downloaded here: https://ffmpeg.org/download.html
